@@ -7,6 +7,15 @@ Dieses Projekt ermöglicht es den Smartmeter der EVN (Netz Niederösterreich) ü
 Smart Meter werden von der Netz NÖ GmbH eingebaut, auf Basis der gesetzlichen Forderungen.
 
 ## Getting Started
+
+Getestet auf einem Raspberry Pi 2 Model B Rev 1.1, debian 11.2
+
+    sudo apt-get install python3-lxml
+    sudo pip install -r requirements.txt
+
+- update .env
+ 
+
 ### Voraussetzungen Hardware
 
 
