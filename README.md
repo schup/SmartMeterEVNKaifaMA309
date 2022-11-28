@@ -1,5 +1,6 @@
-# Alle Infos zu diesem Projekt befinden sich auf meinem Blog
-https://www.michaelreitbauer.at/blog
+# ENV Smartmeter
+Fork von https://github.com/greenMikeEU/SmartMeterEVNKaifaMA309
+Blog: https://www.michaelreitbauer.at/blog
 
 
 # SmartMeterEVN
@@ -9,12 +10,13 @@ Smart Meter werden von der Netz NÖ GmbH eingebaut, auf Basis der gesetzlichen F
 ## Getting Started
 
 Getestet auf einem Raspberry Pi 2 Model B Rev 1.1, debian 11.2
-
-    sudo apt-get install python3-lxml
-    sudo pip install -r requirements.txt
+```shell 
+sudo apt-get install python3-lxml
+sudo pip install -r requirements.txt
+```
 
 - update .env
- 
+env.txt auf .env kopieren und Werte anpassen. 
 
 ### Voraussetzungen Hardware
 
@@ -27,15 +29,9 @@ Getestet auf einem Raspberry Pi 2 Model B Rev 1.1, debian 11.2
     * Handynummer
 
 
-
-
 ### Zähler Hersteller
 * Kaifa Drehstromzähler MA309
 
 
-### Unterstützung
-Spendenlink: https://www.paypal.me/greenMikeEU
-
 ## License
-
 This project is licensed under the GNU General Public License v3.0 License - see the LICENSE.md file for details
